@@ -1,0 +1,898 @@
+
+
+body{
+    background-image: url(Blaamaling.png);
+    background-size: 200%;
+    background-size: contain;
+    font-size: 170%;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;}
+
+h2 {
+    color: white;}
+
+h3 {
+    color: white;}
+
+h4 {
+    color: white;}
+
+p {
+    color: white;}
+
+
+li {
+    color: white;}
+
+a {
+    color: green;}
+
+
+/* dtop down menu start*/
+#drop-menu ul {
+    list-style: none;
+}
+
+#drop-menu ul li{
+    background-color: whitesmoke;
+    width: 200px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;  
+}
+
+#drop-menu ul li:hover{
+    background-color: #85C1E9;
+    position:relative;    
+} 
+
+/* give drop down effekt*/
+#drop-menu ul ul {  
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 48px;
+    width: 172px;
+}
+
+/* give drop down effekt*/
+#drop-menu ul li:hover > ul{
+    display: block;
+    padding: 0;
+    margin: 0
+}
+/*drop down menu slut*/
+
+/*
+
+
+-------------------------------------------------------------Grid omdøb id til grid
+-------------------------------------------------------------
+*/
+
+/* Forside */
+#Head-forside{grid-area: Head-forside}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#h2-Om-mig{grid-area: h2-Om-mig}
+#mig{grid-area:mig}
+#om-mig-p{grid-area:om-mig-p}
+
+
+
+/* Server*/
+#Head-server{grid-area: Head-server}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#Sever-historie-h2{grid-area: Sever-historie-h2}
+#Sever-historie-p{grid-area: Sever-historie-p}
+#Sever-punkter{grid-area:Sever-punkter}
+
+#WWW-h2{grid-area:WWW-h2}
+#WWW-p{grid-area:WWW-p}
+
+#PHP-h2{grid-area:PHP-h2}
+#PHP-p1{grid-area:PHP-p1}
+#PHP-p2{grid-area:PHP-p2}
+#PHP-HYP{grid-area:PHP-HYP}
+#PHP-ul{grid-area:PHP-ul}
+
+
+
+/* Website */
+#Head-web{grid-area:Head-web}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#HTML-h2{grid-area: HTML-h2}
+#HTML-p1{grid-area: HTML-p1}
+#S-E{grid-area: S-E}
+#Attri{grid-area: Attri}
+#Value{grid-area: Value}
+#Cont{grid-area: Cont}
+#HTML-img{grid-area: HTML-img}
+#HTML-p2{grid-area: HTML-p2}
+#seman{grid-area: seman}
+#non-seman{grid-area: non-seman}
+
+#CSS-h2{grid-area: CSS-h2}
+#CSS-p{grid-area: CSS-p}
+#CSS-ul{grid-area: CSS-ul}
+#CSS-img{grid-area: CSS-img}
+
+#Grid-h2{grid-area: Grid-h2}
+#Grid-p{grid-area: Grid-p}
+
+#Renspon-h2{grid-area: Renspon-h2}
+#Renspon-p{grid-area: Renspon-p}
+#Renspon-ul{grid-area: Renspon-ul}
+#Mit-Renspon{grid-area: Mit-Renspon}
+
+#Versions-h2{grid-area: Versions-h2}
+#Versions-p{grid-area: Versions-p}
+#Git-Img{grid-area: Git-Img}
+#Branch{grid-area: Branch}
+#Version-kilde{grid-area: Version-kilde}
+
+
+
+
+/* Informationsarkitektur */
+#Head-info-a{grid-area:Head-info-a}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#infoA-p{grid-area: infoA-p}
+#infoA-ul{grid-area: infoA-ul}
+#infoA-kild{grid-area: infoA-kild}
+
+#KortS-h2{grid-area: KortS-h2}
+#KortS-p{grid-area: KortS-p}
+#KortS-img{grid-area: KortS-img}
+
+#KortL-h2{grid-area: KortL-h2}
+#KortL-p{grid-area: KortL-p}
+#KortL-ul{grid-area: KortL-ul}
+
+#Navi-h2{grid-area: Navi-h2}
+#Navi-pl{grid-area: Navi-p}
+#Navi-ul{grid-area: Navi-ul}
+
+#Map-h2{grid-area: Map-h2}
+#Map-p{grid-area: Map-p}
+#Map-img1{grid-area: Map-img1}
+#Map-img2{grid-area: Map-img2}
+#Map-kilde{grid-area: Map-kilde}
+
+#Web-struk-h2{grid-area: Web-struk-h2}
+#Web-struk-p{grid-area: Web-struk-p}
+#Web-struk-ul{grid-area: Web-struk-ul}
+
+
+
+
+/* Kommunikation*/
+#Head-kommuni{grid-area:Head-kommuni}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#kommuni-p1{grid-area: kommuni-p1}
+#kommuni-p2{grid-area: kommuni-p2}
+#Humani-h2{grid-area: Humani-h2}
+#Humani-p{grid-area: Humani-p}
+#Humani-ul{grid-area: Humani-ul}
+
+#IMK-h3{grid-area: IMK-h3}
+#IMK-p1{grid-area: IMK-p1}
+#IMK-img{grid-area: IMK-img}
+#IMK-p2{grid-area: IMK-p2}
+#IMK-ul{grid-area: IMK-ul}
+
+#Samf-h2{grid-area: Samf-h2}
+#Samf-p{grid-area: Samf-p}
+#Samf-ul{grid-area: Samf-ul}
+
+#Presen-h2{grid-area: Presen-h2}
+#Presen-p{grid-area: Presen-p}
+#fase-1{grid-area: fase-1}
+#fase-2{grid-area: fase-2}
+#fase-3{grid-area: fase-3}
+#fisk-img{grid-area: fisk-img}
+#fisk{grid-area: fisk}
+#fase-4{grid-area: fase-4}
+#fase-5{grid-area: fase-5}
+
+
+
+
+/* Tekst */
+#Head-teks{grid-area: Head-teks}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#info-tek-p{grid-area: info-tek-p}
+
+#typo-h2{grid-area: typo-h2}
+#typo-p1{grid-area: typo-p1}
+#typo-kilde{grid-area: typo-kilde}
+#typo-p2{grid-area: typo-p2}
+#typo-img{grid-area: typo-img}
+#Ser{grid-area: Ser}
+#Sans{grid-area: Sans}
+#font-p{grid-area: font-p}
+#kig-pa{grid-area: kig-pa}
+
+#tekst-h2{grid-area: tekst-h2}
+#tekst-p{grid-area: tekst-p}
+
+#Klilk-h3{grid-area: Klilk-h3}
+#Klilk-p{grid-area: Klilk-p}
+#Klilk-ul{grid-area: Klilk-ul}
+#kilk-kilde{grid-area: kilk-kilde}
+
+#trekant-h3{grid-area: trekant-h3}
+#trekant-p{grid-area: trekant-p}
+#trekant-img{grid-area: trekant-img}
+#trekant-kild{grid-area: trekant-kild}
+
+#AIDA-h3{grid-area: AIDA-h3}
+#AIDA-p{grid-area: AIDA-p}
+#AIDA-img{grid-area: AIDA-img}
+#AIDA-kild{grid-area: AIDA-kild}
+
+#dyder-h3{grid-area: dyder-h3}
+#dyder-ul{grid-area: dyder-ul}
+#dyder-kild{grid-area: dyder-kild}
+
+#krite-h3{grid-area: krite-h3}
+#krite-p{grid-area: krite-p}
+#krite-ul{grid-area: krite-ul}
+#krite-kild{grid-area: krite-kild}
+
+
+
+
+/* Kvantitativ */
+#Head-brugertest{grid-area: Head-brugertest}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#Kvan-h2{grid-area: Kvan-h2}
+#Kvan-p{grid-area: Kvan-p}
+
+#Kval-h2{grid-area: Kval-h2}
+#Kval-p{grid-area: Kval-p}
+
+#Obsa-h2{grid-area: Obsa-h2}
+#Obsa-p{grid-area: Obsa-p}
+
+#test-h2{grid-area: test-h2}
+#test-p{grid-area: test-p}
+
+#test-ul{grid-area: test-ul}
+#test-kild{grid-area: test-kild}
+
+
+
+
+/* Business */
+#Head-Businesst{grid-area: Head-Business}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#BMC-h2{grid-area: BMC-h2}
+#BMC-p{grid-area: BMC-p}
+#BMC-img{grid-area: BMC-img}
+#BMC-ul{grid-area: BMC-ul}
+#BMC-kild{grid-area: BMC-kild}
+
+#op-lic-h2{grid-area: op-lic-h2}
+#op-lic-p{grid-area: op-lic-p}
+
+#ophav-h3{grid-area: ophav-h3}
+#ophav-p{grid-area: ophav-p}
+#ophav-kild{grid-area: ophav-kild}
+
+#lic-h3{grid-area: lic-h3}
+#lic-p{grid-area: lic-p}
+#lic-ul{grid-area: lic-ul}
+#lic-kild{grid-area: lic-kild}
+
+
+
+
+/* Illustrationer */
+#Head-Illustra{grid-area: Head-Illustra}
+#drop-down-menu{grid-area: drop-down-menu}
+#Photo-h2{grid-area: Photo-h2}
+#Photo-p{grid-area: Photo-p}
+#Photo-img1{grid-area: Photo-img1}
+#Photo-img2{grid-area: Photo-img2}
+
+#Illus-h2{grid-area: Illus-h2}
+#Illus-p{grid-area: Illus-p}
+#Illus-img1{grid-area: Illus-img1}
+#Illus-img2{grid-area: Illus-img2}
+#Illus-kild{grid-area: Illus-kild}
+
+#Gestalt-h2{grid-area: Gestalt-h2}
+#Gestalt-p1{grid-area: Gestalt-p1}
+#Gestalt-img{grid-area: Gestalt-img}
+#Gestalt-p2{grid-area: Gestalt-p2}
+#Gestalt-ul{grid-area: Gestalt-ul}
+#Gestalt-kild{grid-area: Gestalt-kild}
+
+#Farver-h2{grid-area: Farver-h2}
+#Farver-p{grid-area: Farver-p}
+
+#Farverum-h3{grid-area: Farverum-h3}
+#Farverum-p{grid-area: Farverum-p}
+#Farverum-img{grid-area: Farverum-img}
+#Farverum-ul{grid-area: Farverum-ul}
+
+#Samsat-h3{grid-area: Samsat-h3}
+#Samsat-p{grid-area: Samsat-p}
+#Samsat-ul{grid-area: Samsat-ul}
+#Samsat-img{grid-area: Samsat-img}
+#Samsat-kild{grid-area: Samsat-kild}
+
+#symb-h3{grid-area: symb-h3}
+#symb-p{grid-area: symb-p}
+#symb-kild{grid-area: symb-kild}
+
+#foto-h2{grid-area: foto-h2}
+#foto-p{grid-area: foto-p}
+#foto-tre{grid-area: foto-tre}
+
+#luk-h3{grid-area: luk-h3}
+#luk-p{grid-area: luk-p}
+
+#blan-h3{grid-area: blan-h3}
+#blan-p{grid-area: blan-p}
+#blan-img{grid-area: blan-img}
+#blan-ul{grid-area: blan-ul}
+
+#ISO-h3{grid-area: ISO-h3}
+#ISO-p{grid-area: ISO-p}
+
+#Video-h2{grid-area: Video-h2}
+#Video-p{grid-area: Video-p}
+
+#Pre-h3{grid-area: Pre-h3}
+#Pre-p{grid-area:Pre-p}
+#Pre-ul{grid-area: Pre-ul}
+
+#Pro-h3{grid-area: Pro-h3}
+#Pro-p{grid-area: Pro-p}
+#Pro-ul{grid-area: Pro-ul}
+
+#Post-h3{grid-area: Post-h3}
+#Post-p{grid-area: Post-p}
+#Post-Kilde{grid-area: Post-Kilde}
+#video-min{grid-area: video-min}
+
+
+
+
+/* Design thinking */
+#Head-DT{grid-area: Head-DT}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#DT-p1{grid-area: DT-p1}
+#DT-ul{grid-area: DT-ul}
+#DT-p2{grid-area: DT-p2}
+
+#Fase-a-h3{grid-area: Fase-a-h3}
+#Fase-a-p{grid-area: Fase-a-p}
+#Fase-a-img{grid-area: Fase-a-img}
+
+#Fase-b-h3{grid-area: Fase-b-h3}
+#Fase-b-p{grid-area: Fase-b-p}
+#Fase-b-img{grid-area: Fase-b-img}
+#Fase-b-ul{grid-area: Fase-b-ul}
+
+#Fase-c-h3{grid-area: Fase-c-h3}
+#Fase-c-p{grid-area: Fase-c-p}
+
+#Fase-d-h3{grid-area: Fase-d-h3}
+#Fase-d-p{grid-area: Fase-d-p}
+#Fase-d-img{grid-area: Fase-d-img}
+
+#Fase-e-h3{grid-area: Fase-e-h3}
+#Fase-e-p{grid-area: Fase-e-p}
+
+#Fase-f-h3l{grid-area: Fase-f-h3}
+#Fase-f-p{grid-area: Fase-f-p}
+
+
+
+
+/* OnePageProjekt */
+#Head-OPP{grid-area: Head-OPP}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#OPP-p1{grid-area: OPP-p1}
+#OPP-ul{grid-area: OPP-ul}
+#OPP-p2{grid-area: OPP-p2}
+
+#etabler-search-h3{grid-area: etabler-search-h3}
+#etabler-search-p{grid-area: etabler-search-p}
+
+#design-h3{grid-area: design-h3}
+#design-ul1{grid-area: design-ul1}
+#design-img{grid-area: design-img}
+#design-ul2{grid-area: design-ul2}
+#wire-p-t-w{grid-area: wire-p-t-w}
+
+#prod-h3{grid-area: prod-h3}
+#billede-p1{grid-area: billede-p1}
+#img-krummer{grid-area: img-krummer}
+#img-brod{grid-area: img-brod}
+#img-gron{grid-area: img-gron}
+#billede-p2{grid-area: billede-p2}
+#kode{grid-area: kode}
+
+#MP-h3{grid-area: MP-h3}
+
+#Minus-h4{grid-area: Minus-h4}
+#Minus-p1{grid-area: Minus-p1}
+#Minus-img1{grid-area: Minus-img1}
+#Minus-img2{grid-area: Minus-img2}
+#Minus-skema{grid-area: Minus-skema}
+#Minus-Kode{grid-area: Minus-Kode}
+#Minus-tidplan{grid-area: Minus-tidplan}
+
+#Plus-h4{grid-area: Plus-h4}
+#Plus-ul{grid-area: Plus-ul}
+
+#afslut-h3{grid-area: afslut-h3}
+#afslut-p{grid-area: afslut-p}
+#afslut-link{grid-area: afslut-link}
+
+
+
+
+/* EksamenProjekt */
+#Head-EP{grid-area: Head-EP}
+#drop-down-menu{grid-area: drop-down-menu}
+#Fremgang-h2{grid-area: Fremgang-h2}
+
+#Overblik-h3{grid-area: Overblik-h3}
+#Overblik-p{grid-area: Overblik-p}
+#Punkt-tekst-img{grid-area: Punkt-tekst-img}
+#KS-img{grid-area: KS-img}
+
+#Tids-h3{grid-area: Tids-h3}
+#Tids-p{grid-area: Tids-p}
+
+#EP-Tekst-h3{grid-area: EP-Tekst-h3}
+#EP-Tekst-p{grid-area: EP-Tekst-p}
+
+#EP-Kode-h3{grid-area: EP-Kode-h3}
+#EP-Kode-p{grid-area: EP-Kode-p}
+
+#EP-MP-h2{grid-area: EP-MP-h2}
+
+#EM-M-h3{grid-area: EM-M-h3}
+#EP-M-ul{grid-area: EP-M-ul}
+
+#EP-P-h3{grid-area: EP-P-h3}
+#EP-P-ul{grid-area: EP-P-ul}
+
+#Refelk-h2{grid-area: Refelk-h2}
+#Refelk-p{grid-area: Refelk-p}
+
+
+
+
+/* Kilder */
+#Head-Kilder{grid-area: Head-Kilder}
+#drop-down-menu{grid-area: drop-down-menu}
+
+#Boger-h2{grid-area: Boger-h2}
+#Boger-ul{grid-area: Boger-ul}
+
+#Video-h2{grid-area: Video-h2}
+#Video-ul{grid-area: Video-ul}
+
+#Link-h2{grid-area: Link-h2}
+#Link-ul{grid-area: Link-ul}
+
+#Underviser-h2{grid-area: Underviser-h2}
+#Underviser-lu{grid-area: Underviser-lu}
+
+/*
+-------------------------------------------------------------Tablet
+-------------------------------------------------------------
+*/
+@media screen and (min-width: 700px){
+    body{
+        background-image: url(Billeder/Blaaglimmer.jpg);
+        font-size: 140%; 
+    }
+    
+    #body-forside {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-forside Head-forside Head-forside Head-forside"
+        "drop-down-menu drop-down-menu . ."
+        "h2-Om-mig . . ."
+        "mig om-mig-p om-mig-p om-mig-p";
+        }
+    
+    #mig{
+        height: auto;
+        width: auto;
+    }
+}
+
+
+
+
+/*
+-------------------------------------------------------------Desktop
+-------------------------------------------------------------
+*/
+@media screen and (min-width: 1000px){
+    body{
+        background-image: url(Billeder/Blaam%C3%B8nster.jpg);
+        font-size: 120%; }
+
+
+/* Forside*/      
+    #body-forside {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-forside Head-forside Head-forside Head-forside"
+        "drop-down-menu drop-down-menu . ."
+        "h2-Om-mig . . ."
+        "mig mig om-mig-p om-mig-p";
+        }
+        
+/*Sever*/
+    #body-server {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-server Head-server Head-server Head-server"
+        "drop-down-menu drop-down-menu . ."
+        "Sever-historie-h2 Sever-historie-h2 . ."
+        "Sever-historie-p Sever-historie-p Sever-punkter Sever-punkter"
+        "WWW-h2 WWW-h2 . ."
+        "WWW-p WWW-p WWW-p WWW-p"
+        "PHP-h2 PHP-h2 . ."
+        "PHP-p1 PHP-p1 PHP-p1 PHP-p1"
+        "PHP-p2 PHP-p2 PHP-p2 PHP-p2"
+        "PHP-HYP PHP-HYP PHP-ul PHP-ul";
+    }
+
+    
+/*Website*/
+    #body-web {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-web Head-web Head-web Head-web"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "HTML-h2 HTML-h2 HTML-h2 HTML-h2"
+        "HTML-p1 HTML-p1 HTML-p1 HTML-p1"
+        "S-E HTML-img HTML-img HTML-img"
+        "Attri HTML-img HTML-img HTML-img"
+        "Value HTML-img HTML-img HTML-img"
+        "Cont HTML-img HTML-img HTML-img"
+        "HTML-p2 HTML-p2 HTML-p2 HTML-p2"
+        "seman seman non-seman non-seman"
+        "CSS-h2 CSS-h2 CSS-h2 CSS-h2"
+        "CSS-p CSS-p CSS-p CSS-p"
+        "CSS-img CSS-img CSS-img CSS-img"
+        "CSS-ul CSS-ul CSS-ul CSS-ul" 
+        "Grid-h2 Grid-h2 Grid-h2 Grid-h2"
+        "Grid-p Grid-p Grid-p Grid-p" 
+        "Renspon-h2 Renspon-h2 Renspon-h2 Renspon-h2"
+        "Renspon-p Renspon-p Renspon-p Renspon-p"
+        "Renspon-ul Renspon-ul Renspon-ul Renspon-ul"
+        "Mit-Renspon Mit-Renspon Mit-Renspon Mit-Renspon"
+        "Versions-h2  Versions-h2 Versions-h2 Versions-h2"
+        "Versions-p Versions-p Versions-p Versions-p"
+        "Branch Git-Img Git-Img Git-Img"
+        "Version-kilde Version-kilde Version-kilde Version-kilde";
+     } 
+    
+/* Informationsarkitektur */
+     #body-info-a {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-info-a Head-info-a Head-info-a Head-info-a"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "infoA-p infoA-p infoA-ul infoA-ul"
+        "infoA-kild infoA-kild infoA-kild infoA-kild"
+        "KortS-h2 KortS-h2 KortS-h2 KortS-h2"
+        "KortS-p KortS-p KortS-img KortS-img"
+        "KortL-h2 KortL-h2 KortL-h2 KortL-h2"
+        "KortL-p KortL-p KortL-p KortL-p"
+        "KortL-ul KortL-ul KortL-ul KortL-ul"
+        "Navi-h2 Navi-h2 Navi-h2 Navi-h2"
+        "Navi-p Navi-p Navi-p Navi-p"
+        "Navi-ul Navi-ul Navi-ul Navi-ul"
+        "Map-h2 Map-h2 Map-h2 Map-h2"
+        "Map-p Map-p Map-p Map-p"
+        "Map-img1 Map-img1 Map-img2 Map-img2"
+        "Map-kilde Map-kilde Map-kilde Map-kilde"
+        "Web-struk-h2 Web-struk-h2 Web-struk-h2 Web-struk-h2"
+        "Web-struk-p Web-struk-p Web-struk-ul Web-struk-ul";
+}
+    
+    #Map-img1{
+        width: 400px;
+    }
+    
+    #Map-img2{
+        width: 400px;
+    }
+    
+    
+ /* Kommunikation*/
+     #body-kommuni {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-kommuni Head-kommuni Head-kommuni Head-kommuni"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "kommuni-p1 kommuni-p1 kommuni-p1 kommuni-p1"
+        "kommuni-p2 kommuni-p2 kommuni-p2 kommuni-p2"
+        "Humani-h2 Humani-h2 Samf-h2 Samf-h2"
+        "Humani-p Humani-p Samf-p Samf-p"
+        "Humani-ul Humani-ul Samf-ul Samf-ul"
+        " IMK-h3  IMK-h3  IMK-h3  IMK-h3"
+        "IMK-p1 IMK-p1 IMK-p1 IMK-p1"
+        "IMK-p2 IMK-p2 IMK-img IMK-img"
+        "IMK-ul IMK-ul IMK-img IMK-img"
+        "Presen-h2 Presen-h2 Presen-h2 Presen-h2"
+        "Presen-p Presen-p Presen-p Presen-p"
+        "fase-1 fase-1 fase-1 fase-1"
+        "fase-2 fase-2 fase-2 fase-2"
+        "fase-3 fase-3 fase-3 fase-3"
+        "fisk fisk fisk-img fisk-img"
+        "fase-4 fase-4 fase-4 fase-4"
+        "fase-4 fase-4 fase-4 fase-4";
+}
+ 
+ /* Tekst */  
+    #body-tekst {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-teks Head-teks Head-teks Head-teks"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "info-tek-p info-tek-p info-tek-p info-tek-p"
+        "typo-h2 typo-h2 typo-h2 typo-h2"
+        "typo-p1 typo-p1 typo-p1 typo-p1"
+        "typo-kilde typo-kilde typo-kilde typo-kilde"
+        "typo-p2 typo-p2 typo-p2 typo-p2"
+        "typo-img typo-img typo-img typo-img"
+        "Ser Ser Sans Sans"
+        "font-p font-p font-p font-p"
+        "kig-pa kig-pa kig-pa kig-pa"
+        "tekst-h2 tekst-h2 tekst-h2 tekst-h2"
+        "tekst-p tekst-p tekst-p tekst-p"
+        "Klilk-h3 Klilk-h3 Klilk-h3 Klilk-h3"
+        "Klilk-p Klilk-ul Klilk-ul Klilk-ul"
+        "kilk-kilde kilk-kilde kilk-kilde kilk-kilde"
+        "trekant-h3 trekant-h3 AIDA-h3 AIDA-h3"
+        "trekant-p trekant-p AIDA-p AIDA-p"
+        "trekant-img trekant-img AIDA-img AIDA-img"
+        "trekant-kild trekant-kild AIDA-kild AIDA-kild"
+        "dyder-h3 dyder-h3 krite-h3 krite-h3"
+        ". . krite-p krite-p"
+        "dyder-ul dyder-ul krite-ul krite-ul"
+        "dyder-kild dyder-kild krite-kild krite-kild";
+ 
+    }
+    
+    
+/* Kvantitativ */
+    #body-brugertest {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-brugertest Head-brugertest Head-brugertest Head-brugertest"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "Kvan-h2 Kvan-h2 Kval-h2 Kval-h2"
+        "Kvan-p Kvan-p Kval-p Kval-p"
+        "Obsa-h2 Obsa-h2 Obsa-h2 Obsa-h2"
+        "Obsa-p Obsa-p Obsa-p Obsa-p"
+        "test-h2 test-h2 test-h2 test-h2"
+        "test-p test-p test-ul test-ul"
+        "test-kild test-kild test-kild test-kild";
+    }
+    
+    
+/* Business */
+    #body-Business {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-Business Head-Business Head-Business Head-Business"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "BMC-h2 BMC-h2 BMC-h2 BMC-h2"
+        "BMC-p BMC-p BMC-p BMC-p"
+        "BMC-ul BMC-ul BMC-img BMC-img"
+        "BMC-kild BMC-kild BMC-kild BMC-kild"
+        "op-lic-h2 op-lic-h2 op-lic-h2 op-lic-h2"
+        "op-lic-p op-lic-p op-lic-p op-lic-p"
+        "ophav-h3 ophav-h3 lic-h3 lic-h3"
+        "ophav-p ophav-p lic-p lic-p"
+        ". . lic-ul lic-ul"
+        "ophav-kild ophav-kild lic-kild lic-kild";
+}
+    
+
+ /* Illustrationer */
+    #body-Illustra {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-Illustra Head-Illustra Head-Illustra Head-Illustra"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "Photo-h2 Photo-h2 Photo-h2 Photo-h2"
+        "Photo-p Photo-p Photo-p Photo-p"
+        "Photo-img1 Photo-img1 Photo-img2 Photo-img2"
+        "Illus-h2 Illus-h2 Illus-h2 Illus-h2"
+        "Illus-p Illus-p Illus-p Illus-p"
+        "Illus-img1 Illus-img1 Illus-img2 Illus-img2"
+        "Illus-kild Illus-kild Illus-kild Illus-kild"
+        "Gestalt-h2 Gestalt-h2 Gestalt-h2 Gestalt-h2"
+        "Gestalt-p1 Gestalt-p1 Gestalt-p1 Gestalt-p1"
+        "Gestalt-p2 Gestalt-p2 Gestalt-p2 Gestalt-p2"
+        "Gestalt-img Gestalt-img Gestalt-ul Gestalt-ul"
+        "Gestalt-kild Gestalt-kild Gestalt-kild Gestalt-kild"
+        "Farver-h2 Farver-h2 Farver-h2 Farver-h2"
+        "Farver-p Farver-p Farver-p Farver-p"
+        ". Farverum-h3 Farverum-h3 Farverum-h3"
+        ". Farverum-p Farverum-p Farverum-p"
+        ". Farverum-ul Farverum-img Farverum-img"
+        ". Samsat-h3 Samsat-h3 Samsat-h3"
+        ". Samsat-p Samsat-p Samsat-p"
+        ". Samsat-img Samsat-img Samsat-ul"
+        ". Samsat-kild Samsat-kild Samsat-kild"
+        ". symb-h3 symb-h3 symb-h3"
+        ". symb-p symb-p symb-p"
+        ". symb-kild symb-kild symb-kild"
+        "foto-h2 foto-h2 foto-h2 foto-h2"
+        "foto-p foto-p foto-p foto-p"
+        "foto-tre foto-tre foto-tre foto-tre"
+        ". luk-h3 luk-h3 luk-h3"
+        ". luk-p luk-p luk-p"
+        ". blan-h3 blan-h3 blan-h3"
+        ". blan-p blan-p blan-p"
+        ". blan-img blan-img blan-img"
+        ". blan-ul blan-ul blan-ul"
+        ". ISO-h3 ISO-h3 ISO-h3"
+        ". ISO-p ISO-p ISO-p"
+        "Video-h2 Video-h2 Video-h2 Video-h2"
+        "Video-p Video-p Video-p Video-p"
+        ". Pre-h3 Pre-h3 Pre-h3"
+        ". Pre-p Pre-p Pre-p"
+        ". . Pre-ul Pre-ul"
+        ". Pro-h3 Pro-h3 Pro-h3"
+        ". Pro-p Pro-p Pro-p"
+        ". . Pro-ul Pro-ul"
+        ". Post-h3 Post-h3 Post-h3"
+        ". Post-p Post-p Post-p"
+        ". Post-Kilde Post-Kilde Post-Kilde"
+        "video-min video-min video-min video-min"; 
+    }
+
+
+/* Design thinking */
+     #body-DT {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-DT Head-DT Head-DT Head-DT"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"   
+        "DT-p1 DT-p1 DT-ul DT-ul"
+        "DT-p2 DT-p2 DT-p2 DT-p2"
+        "Fase-a-h3 Fase-a-h3 Fase-a-h3 Fase-a-h3"
+        "Fase-a-p Fase-a-p Fase-a-img Fase-a-img"
+        "Fase-b-h3 Fase-b-h3 Fase-b-h3 Fase-b-h3"
+        "Fase-b-p Fase-b-p Fase-b-p Fase-b-p"
+        "Fase-b-img Fase-b-img Fase-b-ul Fase-b-ul"
+        "Fase-c-h3 Fase-c-h3 Fase-c-h3 Fase-c-h3"
+        "Fase-c-p Fase-c-p Fase-c-p Fase-c-p"
+        "Fase-d-h3 Fase-d-h3 Fase-d-h3 Fase-d-h3"
+        "Fase-d-p Fase-d-p Fase-d-p Fase-d-p"
+        "Fase-d-img Fase-d-img Fase-d-img Fase-d-img"
+        "Fase-e-h3 Fase-e-h3 Fase-e-h3 Fase-e-h3"
+        "Fase-e-p Fase-e-p Fase-e-p Fase-e-p"
+        "Fase-f-h3 Fase-f-h3 Fase-f-h3 Fase-f-h3"
+        "Fase-f-p Fase-f-p Fase-f-p Fase-f-p";
+         
+    }
+    
+
+/* OnePageProjekt */
+     #body-OPP {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-OPP Head-OPP Head-OPP Head-OPP"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu"
+        "OPP-p1 OPP-p1 OPP-p1 OPP-p1"
+        "OPP-ul OPP-ul OPP-ul OPP-ul"
+        "OPP-p2 OPP-p2 OPP-p2 OPP-p2"
+        "etabler-search-h3 etabler-search-h3 etabler-search-h3 etabler-search-h3"
+        "etabler-search-p etabler-search-p etabler-search-p etabler-search-p"
+        "design-h3 design-h3 design-h3 design-h3"
+        "design-ul1  design-ul1 design-ul1 design-img"
+        "design-ul2 design-ul2 design-ul2 design-img"
+        "wire-p-t-w wire-p-t-w wire-p-t-w wire-p-t-w"
+        "prod-h3 prod-h3 prod-h3 prod-h3"
+        "billede-p1 img-krummer img-brod img-gron"
+        ". billede-p2 billede-p2 billede-p2"
+        "kode kode kode kode"
+        "MP-h3 MP-h3 MP-h3 MP-h3"
+        ". Minus-h4 Minus-h4 Minus-h4"
+        ". Minus-p1 Minus-p1 Minus-p1"
+        "Minus-img1 Minus-img1 Minus-img2 Minus-img2"
+        ". Minus-skema Minus-skema Minus-skema"
+        ". Minus-Kode Minus-Kode Minus-Kode"
+        ". Minus-tidplan Minus-tidplan Minus-tidplan"
+        ". Plus-h4 Plus-h4 Plus-h4"
+        ". Plus-ul Plus-ul Plus-ul"
+        "afslut-h3 afslut-h3 afslut-h3 afslut-h3"
+        "afslut-p afslut-p afslut-p afslut-p"
+        "afslut-link afslut-link afslut-link afslut-link";
+        
+    }
+    
+    
+/* EksamenProjekt */
+     #body-EP {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-EP Head-EP Head-EP Head-EP"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu" 
+        "Fremgang-h2 Fremgang-h2 Fremgang-h2 Fremgang-h2"
+        ". Overblik-h3 Overblik-h3 Overblik-h3"
+        ". Overblik-p Overblik-p Overblik-p"
+        ". Punkt-tekst-img . KS-img"
+        ". Tids-h3 Tids-h3 Tids-h3"
+        ". Tids-p Tids-p Tids-p"
+        ". EP-Tekst-h3 EP-Tekst-h3 EP-Tekst-h3"
+        ". EP-Tekst-p EP-Tekst-p EP-Tekst-p"
+        ". EP-Kode-h3 EP-Kode-h3 EP-Kode-h3"
+        ". EP-Kode-p EP-Kode-p EP-Kode-p"
+        "EP-MP-h2 EP-MP-h2 EP-MP-h2 EP-MP-h2"
+        ". EM-M-h3 . EP-P-h3"
+        ". EP-M-ul . EP-P-ul"
+        "Refelk-h2 Refelk-h2 Refelk-h2 Refelk-h2"
+        "Refelk-p Refelk-p Refelk-p Refelk-p";
+ 
+}
+    
+    
+/* Kilder */
+     #body-Kilder {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Head-Kilder Head-Kilder Head-Kilder Head-Kilder"
+        "drop-down-menu drop-down-menu drop-down-menu drop-down-menu" 
+        ". Boger-h2 Boger-h2 Boger-h2"
+        ". Boger-ul Boger-ul Boger-ul"
+        ". Video-h2 Video-h2 Video-h2"
+        ". Video-ul Video-ul Video-ul"
+        ". Link-h2 Link-h2 Link-h2"
+        ". Link-ul Link-ul Link-ul"
+        ". Underviser-h2 Underviser-h2 Underviser-h2"
+        ". Underviser-lu Underviser-lu Underviser-lu"
+        "prod-h3 prod-h3 prod-h3 prod-h3";
+    }
+    
+    
+    
+
+    
+}
